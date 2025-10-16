@@ -25,8 +25,8 @@ import {
 import { z } from "zod";
 
 // const assetBaseUrl = "https://persistent.oaistatic.com/ecosystem-built-assets";
-const baseUrl = "https://veritably-nonliquefiable-galina.ngrok-free.dev";
-const assetBaseUrl = `${baseUrl}/asset`;
+const baseUrl = "https://cdn.jsdelivr.net";
+const assetBaseUrl = `${baseUrl}/gh/rali20/openai-apps-sdk-examples@2afa8cc3c43c5da7389dfe4204663bba049ef773/assets`;
 
 type PizzazWidget = {
     id: string;
