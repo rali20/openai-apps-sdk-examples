@@ -104,20 +104,7 @@ const widgets: PizzazWidget[] = [
 <script type="module" src="${assetBaseUrl}/pizzaz-list-2d2b.js"></script>
     `.trim(),
         responseText: "Rendered a pizza list!",
-    },
-    {
-        id: "pizza-video",
-        title: "Show Pizza Video",
-        templateUri: "ui://widget/pizza-video.html",
-        invoking: "Hand-tossing a video",
-        invoked: "Served a fresh video",
-        html: `
-<div id="pizzaz-video-root"></div>
-<link rel="stylesheet" href="${assetBaseUrl}/pizzaz-video-2d2b.css">
-<script type="module" src="${assetBaseUrl}/pizzaz-video-2d2b.js"></script>
-    `.trim(),
-        responseText: "Rendered a pizza video!",
-    },
+    }
 ];
 
 const widgetsById = new Map<string, PizzazWidget>();
