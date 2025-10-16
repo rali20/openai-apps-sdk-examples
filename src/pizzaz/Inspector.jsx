@@ -58,17 +58,17 @@ export default function Inspector({ place, onClose }) {
               {[
                 {
                   user: "Leo M.",
-                  avatar: "https://cdn.jsdelivr.net/gh/rali20/openai-apps-sdk-examples@ad8778f4c2a586e72ab6082290f21b0dc016fbc1/images/user1.png",
+                  avatar: "https://cdn.jsdelivr.net/gh/rali20/openai-apps-sdk-examples@3726c126b006ad8aab4703801ab122a21087d722/images/user1.png",
                   text: "Fantastic crust and balanced toppings. The marinara is spot on!",
                 },
                 {
                   user: "Priya S.",
-                  avatar: "https://cdn.jsdelivr.net/gh/rali20/openai-apps-sdk-examples@ad8778f4c2a586e72ab6082290f21b0dc016fbc1/images/user2.png",
+                  avatar: "https://cdn.jsdelivr.net/gh/rali20/openai-apps-sdk-examples@3726c126b006ad8aab4703801ab122a21087d722/images/user2.png",
                   text: "Cozy vibe and friendly staff. Quick service on a Friday night.",
                 },
                 {
                   user: "Maya R.",
-                  avatar: "https://cdn.jsdelivr.net/gh/rali20/openai-apps-sdk-examples@ad8778f4c2a586e72ab6082290f21b0dc016fbc1/images/user3.png",
+                  avatar: "https://cdn.jsdelivr.net/gh/rali20/openai-apps-sdk-examples@3726c126b006ad8aab4703801ab122a21087d722/images/user3.png",
                   text: "Great for sharing. Will definitely come back with friends.",
                 },
               ].map((review, idx) => (
