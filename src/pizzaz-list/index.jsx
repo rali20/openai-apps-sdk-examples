@@ -14,7 +14,7 @@ function App() {
             className="sm:w-18 w-16 aspect-square rounded-xl bg-cover bg-center"
             style={{
               backgroundImage:
-                "url(https://cdn.jsdelivr.net/gh/rali20/openai-apps-sdk-examples@c43ac097ce35581fcfe58f910933a3b7927f2764/assets/images/title.png)",
+                "url(https://cdn.jsdelivr.net/gh/rali20/openai-apps-sdk-examples@ad8778f4c2a586e72ab6082290f21b0dc016fbc1/images/title.png)",
             }}
           ></div>
           <div>

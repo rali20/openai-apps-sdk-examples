@@ -26,7 +26,7 @@ import { z } from "zod";
 
 // const assetBaseUrl = "https://persistent.oaistatic.com/ecosystem-built-assets";
 const baseUrl = "https://cdn.jsdelivr.net";
-const assetBaseUrl = `${baseUrl}/gh/rali20/openai-apps-sdk-examples@c43ac097ce35581fcfe58f910933a3b7927f2764/assets`;
+const assetBaseUrl = `${baseUrl}/gh/rali20/openai-apps-sdk-examples@ad8778f4c2a586e72ab6082290f21b0dc016fbc1/assets`;
 
 type PizzazWidget = {
     id: string;

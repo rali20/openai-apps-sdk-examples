@@ -8,7 +8,7 @@
       "city": "North Beach",
       "rating": 4.8,
       "price": "$$$",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/rali20/openai-apps-sdk-examples@c43ac097ce35581fcfe58f910933a3b7927f2764/assets/images/pizzaz-1.png"
+      "thumbnail": "https://cdn.jsdelivr.net/gh/rali20/openai-apps-sdk-examples@ad8778f4c2a586e72ab6082290f21b0dc016fbc1/images/pizzaz-1.png"
     },
     {
       "id": "midnight-marinara",
@@ -18,7 +18,7 @@
       "city": "North Beach",
       "rating": 4.6,
       "price": "$",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/rali20/openai-apps-sdk-examples@c43ac097ce35581fcfe58f910933a3b7927f2764/assets/images/pizzaz-2.png"
+      "thumbnail": "https://cdn.jsdelivr.net/gh/rali20/openai-apps-sdk-examples@ad8778f4c2a586e72ab6082290f21b0dc016fbc1/images/pizzaz-2.png"
     },
     {
       "id": "cinder-oven-co",
@@ -28,7 +28,7 @@
       "city": "Mission",
       "rating": 4.5,
       "price": "$$",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/rali20/openai-apps-sdk-examples@c43ac097ce35581fcfe58f910933a3b7927f2764/assets/images/pizzaz-3.png"
+      "thumbnail": "https://cdn.jsdelivr.net/gh/rali20/openai-apps-sdk-examples@ad8778f4c2a586e72ab6082290f21b0dc016fbc1/images/pizzaz-3.png"
     },
     {
       "id": "neon-crust-works",
@@ -38,7 +38,7 @@
       "city": "Alamo Square",
       "rating": 4.5,
       "price": "$$",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/rali20/openai-apps-sdk-examples@c43ac097ce35581fcfe58f910933a3b7927f2764/assets/images/pizzaz-6.png"
+      "thumbnail": "https://cdn.jsdelivr.net/gh/rali20/openai-apps-sdk-examples@ad8778f4c2a586e72ab6082290f21b0dc016fbc1/images/pizzaz-6.png"
     },
     {
       "id": "luna-pie-collective",
@@ -48,7 +48,7 @@
       "city": "North Beach",
       "rating": 4.6,
       "price": "$$",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/rali20/openai-apps-sdk-examples@c43ac097ce35581fcfe58f910933a3b7927f2764/assets/images/pizzaz-4.png"
+      "thumbnail": "https://cdn.jsdelivr.net/gh/rali20/openai-apps-sdk-examples@ad8778f4c2a586e72ab6082290f21b0dc016fbc1/images/pizzaz-4.png"
     },
     {
       "id": "bricklight-deep-dish",
@@ -58,7 +58,7 @@
       "city": "North Beach",
       "rating": 4.4,
       "price": "$$$",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/rali20/openai-apps-sdk-examples@c43ac097ce35581fcfe58f910933a3b7927f2764/assets/images/pizzaz-5.png"
+      "thumbnail": "https://cdn.jsdelivr.net/gh/rali20/openai-apps-sdk-examples@ad8778f4c2a586e72ab6082290f21b0dc016fbc1/images/pizzaz-5.png"
     },
     {
       "id": "garden-ember-pies",
@@ -68,7 +68,7 @@
       "city": "Lower Haight",
       "rating": 4.4,
       "price": "$$",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/rali20/openai-apps-sdk-examples@c43ac097ce35581fcfe58f910933a3b7927f2764/assets/images/pizzaz-1.png"
+      "thumbnail": "https://cdn.jsdelivr.net/gh/rali20/openai-apps-sdk-examples@ad8778f4c2a586e72ab6082290f21b0dc016fbc1/images/pizzaz-1.png"
     },
     {
       "id": "atlas-fire-pizzeria",
@@ -78,7 +78,7 @@
       "city": "Nob Hill",
       "rating": 4.6,
       "price": "$$$",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/rali20/openai-apps-sdk-examples@c43ac097ce35581fcfe58f910933a3b7927f2764/assets/images/pizzaz-2.png"
+      "thumbnail": "https://cdn.jsdelivr.net/gh/rali20/openai-apps-sdk-examples@ad8778f4c2a586e72ab6082290f21b0dc016fbc1/images/pizzaz-2.png"
     },
     {
       "id": "circuit-slice-garage",
@@ -88,7 +88,7 @@
       "city": "SoMa",
       "rating": 4.5,
       "price": "$$",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/rali20/openai-apps-sdk-examples@c43ac097ce35581fcfe58f910933a3b7927f2764/assets/images/pizzaz-3.png"
+      "thumbnail": "https://cdn.jsdelivr.net/gh/rali20/openai-apps-sdk-examples@ad8778f4c2a586e72ab6082290f21b0dc016fbc1/images/pizzaz-3.png"
     },
     {
       "id": "velvet-mozza-lounge",
@@ -98,7 +98,7 @@
       "city": "Yerba Buena",
       "rating": 4.3,
       "price": "$$",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/rali20/openai-apps-sdk-examples@c43ac097ce35581fcfe58f910933a3b7927f2764/assets/images/pizzaz-6.png"
+      "thumbnail": "https://cdn.jsdelivr.net/gh/rali20/openai-apps-sdk-examples@ad8778f4c2a586e72ab6082290f21b0dc016fbc1/images/pizzaz-6.png"
     }
   ]
 }
