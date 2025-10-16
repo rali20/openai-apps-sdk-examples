@@ -14,7 +14,7 @@ function App() {
             className="sm:w-18 w-16 aspect-square rounded-xl bg-cover bg-center"
             style={{
               backgroundImage:
-                "url(https://persistent.oaistatic.com/pizzaz/title.png)",
+                "url(https://cdn.jsdelivr.net/gh/rali20/openai-apps-sdk-examples@c43ac097ce35581fcfe58f910933a3b7927f2764/assets/images/title.png)",
             }}
           ></div>
           <div>

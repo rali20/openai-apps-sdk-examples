@@ -58,17 +58,17 @@ export default function Inspector({ place, onClose }) {
               {[
                 {
                   user: "Leo M.",
-                  avatar: "https://persistent.oaistatic.com/pizzaz/user1.png",
+                  avatar: "https://cdn.jsdelivr.net/gh/rali20/openai-apps-sdk-examples@c43ac097ce35581fcfe58f910933a3b7927f2764/assets/images/user1.png",
                   text: "Fantastic crust and balanced toppings. The marinara is spot on!",
                 },
                 {
                   user: "Priya S.",
-                  avatar: "https://persistent.oaistatic.com/pizzaz/user2.png",
+                  avatar: "https://cdn.jsdelivr.net/gh/rali20/openai-apps-sdk-examples@c43ac097ce35581fcfe58f910933a3b7927f2764/assets/images/user2.png",
                   text: "Cozy vibe and friendly staff. Quick service on a Friday night.",
                 },
                 {
                   user: "Maya R.",
-                  avatar: "https://persistent.oaistatic.com/pizzaz/user3.png",
+                  avatar: "https://cdn.jsdelivr.net/gh/rali20/openai-apps-sdk-examples@c43ac097ce35581fcfe58f910933a3b7927f2764/assets/images/user3.png",
                   text: "Great for sharing. Will definitely come back with friends.",
                 },
               ].map((review, idx) => (
