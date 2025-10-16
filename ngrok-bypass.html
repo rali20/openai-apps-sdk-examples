@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ngrok Bypass Helper</title>
+    <style>
+        body {
+            font-family: system-ui, -apple-system, sans-serif;
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h1 { color: #333; }
+        .method {
+            background: #f8f9fa;
+            padding: 15px;
+            margin: 15px 0;
+            border-left: 4px solid #007bff;
+            border-radius: 4px;
+        }
+        code {
+            background: #e9ecef;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: monospace;
+        }
+        .test-button {
+            background: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            margin: 10px 5px;
+        }
+        .test-button:hover {
+            background: #0056b3;
+        }
+        #result {
+            margin-top: 20px;
+            padding: 15px;
+            border-radius: 4px;
+            display: none;
+        }
+        .success { background: #d4edda; color: #155724; display: block; }
+        .error { background: #f8d7da; color: #721c24; display: block; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 Ngrok Browser Warning Bypass</h1>
+        <p>This page helps you access your ngrok endpoints without the interstitial warning.</p>
+
+        <div class="method">
+            <h3>Method 1: Fetch with Custom Headers</h3>
+            <p>Test your endpoints using JavaScript fetch with the bypass header:</p>
+            <button class="test-button" onclick="testMCP()">Test MCP Server</button>
+            <button class="test-button" onclick="testAssets()">Test Assets</button>
+        </div>
+
+        <div class="method">
+            <h3>Method 2: Browser Extension</h3>
+            <p>Install a browser extension to automatically add headers:</p>
+            <ul>
+                <li><strong>Chrome:</strong> <a href="https://chrome.google.com/webstore/detail/modheader/idgpnmonknjnojddfkpgkljpfnnfcklj" target="_blank">ModHeader</a></li>
+                <li><strong>Firefox:</strong> <a href="https://addons.mozilla.org/en-US/firefox/addon/modheader-firefox/" target="_blank">ModHeader</a></li>
+            </ul>
+            <p>Add header: <code>ngrok-skip-browser-warning: true</code></p>
+        </div>
+
+        <div class="method">
+            <h3>Method 3: Custom User-Agent</h3>
+            <p>Change your browser's User-Agent to bypass the warning:</p>
+            <ul>
+                <li>Use a User-Agent switcher extension</li>
+                <li>Set User-Agent to: <code>MyApp/1.0.0</code> or any non-browser value</li>
+            </ul>
+        </div>
+
+        <div id="result"></div>
+    </div>
+
+    <script>
+        const NGROK_DOMAIN = 'https://veritably-nonliquefiable-galina.ngrok-free.dev';
+
+        async function testMCP() {
+            await testEndpoint('/mcp', 'MCP Server');
+        }
+
+        async function testAssets() {
+            await testEndpoint('/asset/', 'Assets Server');
+        }
+
+        async function testEndpoint(path, name) {
+            const result = document.getElementById('result');
+            result.innerHTML = `Testing ${name}...`;
+            result.className = '';
+            result.style.display = 'block';
+
+            try {
+                const response = await fetch(`${NGROK_DOMAIN}${path}`, {
+                    method: 'GET',
+                    headers: {
+                        'ngrok-skip-browser-warning': 'true',
+                        'User-Agent': 'NgrokBypassHelper/1.0.0'
+                    }
+                });
+
+                const text = await response.text();
+                result.className = 'success';
+                result.innerHTML = `
+                    ✅ <strong>${name} Response:</strong><br>
+                    Status: ${response.status} ${response.statusText}<br>
+                    <details>
+                        <summary>Response Preview (click to expand)</summary>
+                        <pre style="max-height: 200px; overflow: auto; margin-top: 10px; background: white; padding: 10px;">${text.substring(0, 500)}...</pre>
+                    </details>
+                `;
+            } catch (error) {
+                result.className = 'error';
+                result.innerHTML = `❌ <strong>Error:</strong> ${error.message}`;
+            }
+        }
+
+        // Automatically test on load
+        window.addEventListener('load', () => {
+            console.log('Page loaded. Ready to test endpoints.');
+            console.log('All requests will include ngrok-skip-browser-warning header');
+        });
+    </script>
+</body>
+</html>
+

@@ -6,6 +6,7 @@
   "scripts": {
     "build": "tsx ./build-all.mts",
     "serve": "serve -s ./assets -p 4444 --cors",
+    "proxy": "node proxy-server.mjs",
     "dev": "vite --config vite.config.mts",
     "tsc": "tsc -b",
     "tsc:app": "tsc -p tsconfig.app.json",
@@ -24,6 +25,7 @@
     "@vitejs/plugin-react": "^4.5.2e",
     "autoprefixer": "10.4.21",
     "fast-glob": "^3.3.3",
+    "http-proxy": "^1.18.1",
     "postcss": "8.5.6",
     "serve": "^14.2.4",
     "tailwindcss": "4.1.11",
